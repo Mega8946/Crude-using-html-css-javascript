@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Crude</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+    }
+    .task{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .task button{
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Crude</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task"/>
+    <button onclick="addTask()">addTask</button>
+
+    <ul id="taskList"></ul>
+
+    <script src="Crude.js"></script>
+</body>
+</html>
